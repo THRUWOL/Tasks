@@ -3,9 +3,9 @@
 int twelve() {
 	setlocale(LC_ALL, "Russian");
 
-	int number; //вводимое число
+	int number; //РІРІРѕРґРёРјРѕРµ С‡РёСЃР»Рѕ
 	bool prime = true;
-	std::cout << "Введите целое положительное число: ";
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ: ";
 	std::cin >> number;
 
 	if (number > 1) {
@@ -18,11 +18,11 @@ int twelve() {
 			}
 		}
 		if (prime)
-			std::cout << "Простое" << std::endl;
+			std::cout << "РџСЂРѕСЃС‚РѕРµ" << std::endl;
 		else
-			std::cout << "Составное " << std::endl;
+			std::cout << "РЎРѕСЃС‚Р°РІРЅРѕРµ " << std::endl;
 	}
-	else std::cout << "И не составное, и не простое\n";
+	else std::cout << "Р РЅРµ СЃРѕСЃС‚Р°РІРЅРѕРµ, Рё РЅРµ РїСЂРѕСЃС‚РѕРµ\n";
 
 	return 0;
 }
