@@ -9,4 +9,4 @@
 * Все файлы лежат в папке [All_Tasks](адрес "https://github.com/THRUWOL/Tasks/tree/master/All_Tasks");
 * Номер цифры в названии файла соответсвует номеру задачи на сайте https://neroid.ru/courses/cppcoding/;
 * Главным файлом является [Tasks.cpp](адрес "https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Tasks.cpp"), через него производится запуск всех заданий;
-* Заголовочный файл [Header.h](адрес "https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Header.h") связывает [Tasks.cpp](адрес "https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Tasks.cpp") с остальными файламы и включает в себя нужные библиотеки и прототипы функций, используемых в [Tasks.cpp](адрес "https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Tasks.cpp").
+* Заголовочный файл [Header.h](адрес "https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Header.h") связывает [Tasks.cpp](адрес "https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Tasks.cpp") с остальными файлами и включает в себя нужные библиотеки и прототипы функций, используемых в [Tasks.cpp](адрес "https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Tasks.cpp").
