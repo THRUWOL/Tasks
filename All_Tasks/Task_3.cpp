@@ -3,27 +3,28 @@
 int third() {
 	setlocale(LC_ALL, "Russian");
 
-	std::cout << "¹3.Àðèôìåòèêà äëÿ ðàçíûõ òèïîâ\n\n";
+	std::cout << "â„–3.ÐÑ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸ÐºÐ° Ð´Ð»Ñ Ñ€Ð°Ð·Ð½Ñ‹Ñ… Ñ‚Ð¸Ð¿Ð¾Ð²\n\n";
 
 	int math_1, math_2;
 	double math_3, math_4;
 
 	//int +-/* int
-	std::cout << "Ââåäèòå äâà öåëûõ ÷èñëà...\n";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐ»Ð°...\n";
 	std::cin >> math_1 >> math_2;
 	std::cout << "\n" << math_1 + math_2 << "\n" << math_1 - math_2 << "\n" << math_1 * math_2 << "\n" << math_1 / math_2 << "\n";
 	// double +-/* double
-	std::cout << "Ââåäèòå äâà äðîáíûõ...\n";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ð´Ñ€Ð¾Ð±Ð½Ñ‹Ñ…...\n";
 	std::cin >> math_3 >> math_4;
 	std::cout << "\n" << math_3 + math_4 << "\n" << math_3 - math_4 << "\n" << math_3 * math_4 << "\n" << math_3 / math_4 << "\n";
 	//int +-/* double
-	std::cout << "Ââåäèòå öåëîå è äðîáíîîå ÷èñëà...\n";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ð¸ Ð´Ñ€Ð¾Ð±Ð½Ð¾Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð°...\n";
 	std::cin >> math_1 >> math_3;
 	std::cout << "\n" << math_1 + math_3 << "\n" << math_1 - math_3 << "\n" << math_1 * math_3 << "\n" << math_1 / math_3 << "\n";
 	//double +-/* int
-	std::cout << "Ââåäèòå äðîáíîå è öåëîå ÷èñëà...\n";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ñ€Ð¾Ð±Ð½Ð¾Ðµ Ð¸ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð°...\n";
 	std::cin >> math_4 >> math_2;
 	std::cout << "\n" << math_4 + math_2 << "\n" << math_4 - math_2 << "\n" << math_4 * math_2 << "\n" << math_4 / math_2 << "\n";
 
 	return 0;
+}
 }

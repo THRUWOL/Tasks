@@ -5,35 +5,35 @@ int tenth() {
 
 	double number, oldnumber, power;
 
-	std::cout << "Ââåäèòå ÷èñëî: "; std::cin >> number;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: "; std::cin >> number;
 	oldnumber = number;
-	std::cout << "\nÂâåäèòå ñòåïåíü: "; std::cin >> power;
+	std::cout << "\nĞ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑÑ‚ĞµĞ¿ĞµĞ½ÑŒ: "; std::cin >> power;
 
-	//åñëè ñòåïåíü ïîëîæèòåëüíàÿ
+	//ĞµÑĞ»Ğ¸ ÑÑ‚ĞµĞ¿ĞµĞ½ÑŒ Ğ¿Ğ¾Ğ»Ğ¾Ğ¶Ğ¸Ñ‚ĞµĞ»ÑŒĞ½Ğ°Ñ
 	if (power > 0) {
 		for (int i = 1; i < power; i++) {
 			number = number * oldnumber;
 		}
-		std::cout << "\nÎòâåò: " << number << std::endl;
+		std::cout << "\nĞÑ‚Ğ²ĞµÑ‚: " << number << std::endl;
 	}
 
-	//åñëè ñòåïåíü îòğèöàòåëüíàÿ
+	//ĞµÑĞ»Ğ¸ ÑÑ‚ĞµĞ¿ĞµĞ½ÑŒ Ğ¾Ñ‚Ñ€Ğ¸Ñ†Ğ°Ñ‚ĞµĞ»ÑŒĞ½Ğ°Ñ
 	else if (power < 0) {
-		if (number == 0) std::cout << "Íà íîëü äåëèòü íåëüçÿ" << std::endl;
+		if (number == 0) std::cout << "ĞĞ° Ğ½Ğ¾Ğ»ÑŒ Ğ´ĞµĞ»Ğ¸Ñ‚ÑŒ Ğ½ĞµĞ»ÑŒĞ·Ñ" << std::endl;
 		else {
 			power = power * (-1);
 			for (int i = 1; i < power; i++) {
 				number = number * oldnumber;
 			}
 			number = 1 / number;
-			std::cout << "\nÎòâåò: " << number << std::endl;
+			std::cout << "\nĞÑ‚Ğ²ĞµÑ‚: " << number << std::endl;
 		}
 	}
 
-	//åñëè ñòåïåíü ğàâíà íóëş
+	//ĞµÑĞ»Ğ¸ ÑÑ‚ĞµĞ¿ĞµĞ½ÑŒ Ñ€Ğ°Ğ²Ğ½Ğ° Ğ½ÑƒĞ»Ñ
 	else if (power == 0) {
 		number = 1;
-		std::cout << "\nÎòâåò: " << number << std::endl;
+		std::cout << "\nĞÑ‚Ğ²ĞµÑ‚: " << number << std::endl;
 	}
 
 	return 0;

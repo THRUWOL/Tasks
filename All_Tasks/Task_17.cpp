@@ -4,15 +4,15 @@ double BMI(double weight, double height) {
 	return weight / (height * height);
 }
 void printBMI(double BMI) {
-	if (BMI < 18.5) std::cout << "Íåäîñòàòî÷íàÿ ìàññà" << std::endl;
-	else if ((18.5 <= BMI) && (BMI < 25.0)) std::cout << "Íîðìàëüíûé âåñ" << std::endl;
-	else if ((25.0 <= BMI) && (BMI < 30.0)) std::cout << "Èçáûòî÷íàÿ ìàññà" << std::endl;
-	else std::cout << "Îæèðåíèå" << std::endl;
+	if (BMI < 18.5) std::cout << "ÐÐµÐ´Ð¾ÑÑ‚Ð°Ñ‚Ð¾Ñ‡Ð½Ð°Ñ Ð¼Ð°ÑÑÐ°" << std::endl;
+	else if ((18.5 <= BMI) && (BMI < 25.0)) std::cout << "ÐÐ¾Ñ€Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ð²ÐµÑ" << std::endl;
+	else if ((25.0 <= BMI) && (BMI < 30.0)) std::cout << "Ð˜Ð·Ð±Ñ‹Ñ‚Ð¾Ñ‡Ð½Ð°Ñ Ð¼Ð°ÑÑÐ°" << std::endl;
+	else std::cout << "ÐžÐ¶Ð¸Ñ€ÐµÐ½Ð¸Ðµ" << std::endl;
 }
 int seventeenth() {
 	setlocale(LC_ALL, "Russian");
 	double weight, height;
-	std::cout << "Ââåäèòå âåñ, ïîòîì ðîñò.\n";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ, Ð¿Ð¾Ñ‚Ð¾Ð¼ Ñ€Ð¾ÑÑ‚.\n";
 	std::cin >> weight >> height;
 	height /= 100;
 

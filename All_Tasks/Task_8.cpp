@@ -6,34 +6,34 @@ int eight() {
 	double a, b;
 	char input_8 = '1';
 
-	std::cout << "Çàïóùåí êàëüêóëÿòîğ.\n\n";
+	std::cout << "Ğ—Ğ°Ğ¿ÑƒÑ‰ĞµĞ½ ĞºĞ°Ğ»ÑŒĞºÑƒĞ»ÑÑ‚Ğ¾Ñ€.\n\n";
 
-	std::cout << "Ââåäèòå ïğèìåğ: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿Ñ€Ğ¸Ğ¼ĞµÑ€: ";
 	std::cin >> a >> input_8 >> b;
 
 	if (input_8 == '+' || input_8 == '-' || input_8 == '*' || input_8 == '/') {
 
 		switch (input_8) {
 		case '+':
-			std::cout << "Îòâåò: " << a + b << "\n";
+			std::cout << "ĞÑ‚Ğ²ĞµÑ‚: " << a + b << "\n";
 			break;
 		case '-':
-			std::cout << "Îòâåò: " << a - b << "\n";
+			std::cout << "ĞÑ‚Ğ²ĞµÑ‚: " << a - b << "\n";
 			break;
 		case '*':
-			std::cout << "Îòâåò: " << a * b << "\n";
+			std::cout << "ĞÑ‚Ğ²ĞµÑ‚: " << a * b << "\n";
 			break;
 		case '/':
 			if (b != 0) {
-				std::cout << "Îòâåò: " << a / b << "\n";
+				std::cout << "ĞÑ‚Ğ²ĞµÑ‚: " << a / b << "\n";
 			}
 			break;
 		default:
-			std::cout << "×òî-òî ïîøëî íå òàê :(\n";
+			std::cout << "Ğ§Ñ‚Ğ¾-Ñ‚Ğ¾ Ğ¿Ğ¾ÑˆĞ»Ğ¾ Ğ½Ğµ Ñ‚Ğ°Ğº :(\n";
 			system("pause");
 		}
 	}
-	else std::cout << "Íåâåğíîå àğèôìåòè÷åñêîå äåéñòâèå...\n";
+	else std::cout << "ĞĞµĞ²ĞµÑ€Ğ½Ğ¾Ğµ Ğ°Ñ€Ğ¸Ñ„Ğ¼ĞµÑ‚Ğ¸Ñ‡ĞµÑĞºĞ¾Ğµ Ğ´ĞµĞ¹ÑÑ‚Ğ²Ğ¸Ğµ...\n";
 
 	return 0;
 }

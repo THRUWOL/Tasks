@@ -10,7 +10,7 @@ int nineteenth() {
 			a[number]++;
 		}
 	}
-	else std::cout << "Ãğàíèöà ïğåâûøàåò äîïóñòèìîå çíà÷åíèå.";
+	else std::cout << "Ğ“Ñ€Ğ°Ğ½Ğ¸Ñ†Ğ° Ğ¿Ñ€ĞµĞ²Ñ‹ÑˆĞ°ĞµÑ‚ Ğ´Ğ¾Ğ¿ÑƒÑÑ‚Ğ¸Ğ¼Ğ¾Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ.";
 	for (int i = 0; i < 10; i++) if (a[i])std::cout << i << ": " << a[i] << std::endl;
 
 	return 0;
