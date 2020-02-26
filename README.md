@@ -10,4 +10,4 @@
 * Номер цифры в названии файла соответсвует номеру задачи на сайте https://neroid.ru/courses/cppcoding/;
 * Главным файлом является [Tasks.cpp](https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Tasks.cpp), через него производится запуск всех заданий;
 * Заголовочный файл [Header.h](https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Header.h) связывает [Tasks.cpp](https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Tasks.cpp) с остальными файлами и включает в себя нужные библиотеки и прототипы функций, используемых в [Tasks.cpp](https://github.com/THRUWOL/Tasks/blob/master/All_Tasks/Tasks.cpp).
-* Задания 31- ? хранятся в папке Qt_Tasks
+* Задания 31- ? хранятся в папке [Qt_Tasks](https://github.com/THRUWOL/Tasks/tree/master/Qt_tasks/Task_31)
