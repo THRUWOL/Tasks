@@ -36,9 +36,3 @@ string maze[25] = {
 * A = maze[15][0]   D = maze[24][20]
 */
 
-int main(){
-    // добавление отображения русского языка
-    setlocale (LC_ALL, "rus");
-    cout << maze[24][20];
-    return 0;
-}
